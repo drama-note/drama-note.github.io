@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "add": "^2.0.6",
+    "sass-embedded": "^1.83.0",
+    "scss": "^0.2.4",
+    "unplugin-auto-import": "^0.19.0",
+    "unplugin-vue-components": "^0.28.0",
+    "vitepress": "^1.5.0"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}

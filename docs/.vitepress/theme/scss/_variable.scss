@@ -1,0 +1,43 @@
+:root {
+    // 品牌色、tip色
+    --vp-c-brand-1: #f0993d;
+    --vp-c-brand-2: #fec534;
+    --vp-c-brand-3: #ad823b;
+    --vp-c-brand-soft: #f1d3b1;
+
+    // 把tip 改為品牌色 (Component: Custom Block)
+    --vp-custom-block-tip-border: transparent;
+    --vp-custom-block-tip-text: var(--vp-c-text-1);
+    --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
+    --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+
+    // 字型設定
+    --vp-font-family-base: 'Barlow', 'NotoSansTC', '微軟正黑體', 'Arial', sans-serif;
+    --vp-font-family-mono: 'FiraCode', 'Barlow', sans-serif;
+
+    // hero
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #fec534, #ff9041);
+    --vp-home-hero-image-filter: blur(44px);
+}
+
+.dark {
+    --vp-c-brand-1: #fec534;
+    --vp-c-brand-2: #EFDFCC;
+    --vp-c-brand-3: #b48d2a;
+    --vp-c-brand-soft: #D4C2AD;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #a27e21, #945325);
+
+    .text {
+        color: #909090
+    }
+}
+
+h1 {
+    font-family: Pattaya;
+}
+
+.text {
+    color: #707070;
+    font-weight: 900;
+}

@@ -1,1 +1,2 @@
-# drama-note.github.io
+# Drama Note部落格
+拖超久終於自架網站了...
